@@ -20,6 +20,7 @@
   align-items: center;
   gap: 2rem;
   flex-wrap: wrap;
+  padding: 2rem 0;
 }
 
 .intro-section .intro-content {
