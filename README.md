@@ -26,7 +26,7 @@ O projeto é composto pelos seguintes arquivos e diretórios:
 ## Tecnologias Utilizadas
 
 - **HTML**: Estruturação do conteúdo da página.
-- **CSS**: Estilização da página, incluindo a utilização de classes do Tailwind CSS.
+- **CSS**: Estilização da página.
 - **JavaScript**: Funcionalidades interativas da página (a ser definido no arquivo `index.js`).
 
 ## Como Rodar o Projeto Localmente
