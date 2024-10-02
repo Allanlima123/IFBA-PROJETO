@@ -12,7 +12,6 @@ O projeto é composto pelos seguintes arquivos e diretórios:
 
 - **`index.html`**: Arquivo principal HTML que estrutura o conteúdo da página.
 - **`src/assets/global/global.css`**: Arquivo de estilos globais.
-- **`src/assets/global/reset.css`**: Arquivo para resetar estilos padrão do navegador.
 - **`src/css/main.css`**: Estilos específicos do projeto.
 - **`src/assets/img/`**: Diretório contendo as imagens usadas no site.
 - **`src/js/index.js`**: Arquivo JavaScript para funcionalidades da página.
