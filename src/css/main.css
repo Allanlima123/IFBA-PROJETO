@@ -1,20 +1,10 @@
-.main-container {
-  background-color: var(--white);
-}
-
-.intro-section {
+/* HEADER */
+.header-container {
   background-color: var(--gray-40);
   margin-bottom: 20px;
 }
 
-.intro-section .container,
-.recommended-articles .container .box_container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 10px 30px;
-}
-
-.intro-section .container {
+.header-container .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,7 +13,7 @@
   padding: 20px 0;
 }
 
-.intro-section .intro-content {
+.header-container .intro-content {
   width: 100%;
   max-width: 410px;
   padding: 20px;
@@ -76,23 +66,27 @@
 }
 
 
-.recommended-articles .container .section-heading {
-  font-family: var(--font-Roboto);
-  font-size: 25px;
-  font-weight: 600;
-  color: var(--dark);
-  margin: 20px 0;
+.header-container .container,
+.recommended-articles {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px 30px;
+}
+
+
+/* Main */
+.main-container {
+  background-color: var(--white);
 }
 
 .recommended-articles .container {
   padding: 20px;
-  margin: 0 auto;
-  max-width: 1200px;
 }
+
 
 .section-heading {
   font-family: var(--font-Roboto);
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 600;
   color: var(--dark);
   margin-bottom: 20px;
@@ -143,7 +137,7 @@
 
 .contact-section {
   background: var(--gray-40);
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 
 .contact-section .container_form {
