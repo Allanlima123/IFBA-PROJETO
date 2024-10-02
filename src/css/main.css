@@ -4,36 +4,36 @@
 
 .intro-section {
   background-color: var(--gray-40);
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
 }
 
 .intro-section .container,
 .recommended-articles .container .box_container {
-  max-width: 120rem;
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 1rem 3rem;
+  padding: 10px 30px;
 }
 
 .intro-section .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 2rem;
+  gap: 20px;
   flex-wrap: wrap;
-  padding: 2rem 0;
+  padding: 20px 0;
 }
 
 .intro-section .intro-content {
   width: 100%;
-  max-width: 41rem;
-  padding: 2rem;
+  max-width: 410px;
+  padding: 20px;
   text-align: left;
 }
 
 .intro-heading {
-  line-height: 2.5rem;
+  line-height: 25px;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 25px;
   font-family: var(--font-Roboto);
   color: var(--text-color-dark);
 }
@@ -44,9 +44,9 @@
 }
 
 .intro-description {
-  line-height: 2rem;
+  line-height: 20px;
   margin: 1.5rem 0;
-  font-size: 1.5rem;
+  font-size: 15px;
   font-family: var(--font-Roboto);
   color: var(--text-color-light);
 }
@@ -55,60 +55,60 @@
   background-color: var(--brand-color);
   font-family: var(--font-Roboto);
   font-weight: 500;
-  font-size: 1.3rem;
-  padding: 1.1rem 2.1rem;
+  font-size: 13px;
+  padding: 11px 21px;
   border: none;
-  border-radius: 0.3rem;
+  border-radius: 3px;
   color: var(--white);
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .intro-image-wrapper {
-  width: 35rem;
+  width: 350px;
   text-align: center;
 }
 
 .intro-image-wrapper img {
   width: 100%;
   object-fit: cover;
-  border-radius: 0.5rem;
+  border-radius: 5px;
 }
 
 
 .recommended-articles .container .section-heading {
   font-family: var(--font-Roboto);
-  font-size: 2.5rem;
+  font-size: 25px;
   font-weight: 600;
   color: var(--dark);
-  margin: 2rem 0;
+  margin: 20px 0;
 }
 
 .recommended-articles .container {
-  padding: 2rem;
+  padding: 20px;
   margin: 0 auto;
-  max-width: 120rem;
+  max-width: 1200px;
 }
 
 .section-heading {
   font-family: var(--font-Roboto);
-  font-size: 2rem;
+  font-size: 20px;
   font-weight: 600;
   color: var(--dark);
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
   text-align: left;
 }
 
 .article-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
 }
 
 .article-card {
   background-color: var(--white);
   border: 1px solid var(--gray-20);
-  border-radius: 0.5rem;
+  border-radius: 5px;
   overflow: hidden;
   transition: transform 0.3s ease;
 }
@@ -123,19 +123,19 @@
 }
 
 .article-info {
-  padding: 1rem;
+  padding: 10px;
 }
 
 .article-title {
-  font-size: 1.5rem;
+  font-size: 15px;
   font-weight: 600;
   color: var(--dark);
   font-family: var(--font-Roboto);
-  margin-bottom: 0.5rem;
+  margin-bottom: 5px;
 }
 
 .article-summary {
-  font-size: 1.2rem;
+  font-size: 12px;
   color: var(--text-color-light);
   line-height: 1.5;
   font-family: var(--font-Roboto);
@@ -143,21 +143,21 @@
 
 .contact-section {
   background: var(--gray-40);
-  padding: 0 2rem;
+  padding: 0 20px;
 }
 
 .contact-section .container_form {
-  max-width: 40rem;
-  margin: 2rem auto;
+  max-width: 400px;
+  margin: 20px auto;
 }
 
 .contact-section .container_form .form-heading {
   font-family: var(--font-Roboto);
-  font-size: 2.5rem;
+  font-size: 25px;
   font-weight: 600;
   color: var(--dark);
-  margin-bottom: 2rem;
-  padding: 2rem 0;
+  margin-bottom: 20px;
+  padding: 20px 0;
   text-align: center;
   width: 100%;
 }
@@ -168,17 +168,17 @@
 }
 
  .form-group {
-  margin: 1rem 0;
+  margin: 10px 0;
 }
 
 .input-field,
 .textarea-field {
   width: 100%;
-  padding: 1rem;
+  padding: 10px;
   border: 1px solid var(--gray-20);
-  border-radius: 0.3rem;
+  border-radius: 3px;
   font-family: var(--font-Roboto);
-  font-size: 1.5rem;
+  font-size: 15px;
   color: var(--text-color-dark);
 }
 
@@ -221,11 +221,11 @@
   }
 
   .intro-content {
-    padding: 1rem;
+    padding: 10px;
   }
 
   .intro-heading {
-    font-size: 1.8rem;
+    font-size: 18px;
   }
 
   .btn-primary {
@@ -234,7 +234,7 @@
   }
 
   .intro-image-wrapper {
-    margin-top: 2rem;
+    margin-top: 20px;
     max-width: 80%;
   }
 }
