@@ -142,7 +142,7 @@
   margin: 20px auto;
 }
 
-.contact-section .container_form .form-heading {
+.contact-section .container_form .form-title{
   font-family: var(--font-Roboto);
   font-size: 25px;
   font-weight: 600;
