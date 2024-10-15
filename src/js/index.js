@@ -12,6 +12,7 @@ function fetchData(event) {
     console.log("Remetente: " + email);
     console.log("Destinatário: " + destinatario);
     console.log("Olá " + nome + ", você acabou de enviar uma mensagem para " + destinatario);
+    console.log("Mensagem: " + msg);
 }
 
 form.addEventListener("submit", fetchData);
